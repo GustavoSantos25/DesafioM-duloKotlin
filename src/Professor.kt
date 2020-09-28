@@ -1,4 +1,4 @@
-class Professor(var nome: String,
+abstract class Professor(var nome: String,
                 var sobrenome: String,
                 var tempoDeCasa: Int,
                 val codigo: Int) {
