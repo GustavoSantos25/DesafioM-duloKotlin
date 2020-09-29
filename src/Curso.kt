@@ -1,4 +1,6 @@
-class Curso(var nome: String, val codigo: Int) {
+class Curso(var nome: String, val codigo: Int,
+            var professorAdjunto: ProfessorAdjunto, var professorTitular: ProfessorTitular,
+            var maxQuantAlunos: Int, var listaAlunos: MutableList<Aluno>) {
 
     override fun equals(other: Any?): Boolean {
         if(this === other) return true
