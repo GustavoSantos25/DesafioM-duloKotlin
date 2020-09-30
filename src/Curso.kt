@@ -18,6 +18,7 @@ class Curso(var nome: String, val codigo: Int, var maxQuantAlunos: Int) {
             listaAlunos.size -> return false
             else ->{
                 listaAlunos.add(umAluno)
+                umAluno.cursoMatriculado = this
             }
         }
         return true
