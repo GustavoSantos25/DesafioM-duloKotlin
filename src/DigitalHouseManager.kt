@@ -1,4 +1,4 @@
-class DigitalHouseManager {
+class DigitalHouseManager() {
     val listaAlunos = mutableListOf<Aluno>()
     val listaCursos = mutableListOf<Curso>()
     val listaProfessores = mutableListOf<Professor>()
